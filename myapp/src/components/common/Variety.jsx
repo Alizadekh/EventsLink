@@ -3,7 +3,7 @@ import "../../assets/styles/Variety.css";
 import WorkshopsIcon from "../../assets/svg/workshops.svg";
 import ExhibitonsIcon from "../../assets/svg/exhibitions.svg";
 import FoodandDrinksIcon from "../../assets/svg/food and drinks.svg";
-import HolidaysIcon from "../../assets/svg/holidays.svg";
+import HolidaysIcon from "../../assets/svg/Holidays.svg";
 import SportsIcon from "../../assets/svg/sports icon.svg";
 import ConcertsIcon from "../../assets/svg/concerts.svg";
 
