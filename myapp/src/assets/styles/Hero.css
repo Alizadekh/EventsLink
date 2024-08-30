@@ -1,0 +1,84 @@
+@import url("../styles/variables.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.HeroSection {
+  background-image: url("../images/Herobackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 691px;
+}
+.HeroContent {
+  width: 85%;
+  margin: auto;
+  padding-top: 410px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.HeroContent .info {
+  width: 60% !important;
+}
+.HeroContent .info h2 {
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.HeroContent .info p {
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.HeroAction button {
+  border: none;
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  border-radius: 8px;
+  background: var(--primary-500);
+  box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+
+  /* Button Text */
+  color: var(--white);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .HeroContent {
+    width: 95%;
+    padding-top: 320px;
+    text-align: center;
+  }
+  .HeroContent .info {
+    width: 100%;
+    text-align: center;
+  }
+  .HeroAction {
+    margin: auto;
+  }
+  .HeroContent .info {
+    width: 80% !important;
+    margin: auto;
+  }
+  .HeroContent .info h2 {
+    font-size: 32px;
+  }
+  .HeroContent .info p {
+    font-size: 16px;
+  }
+}

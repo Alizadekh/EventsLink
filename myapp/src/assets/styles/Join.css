@@ -1,0 +1,67 @@
+@import url("../styles/variables.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.signInfo {
+  width: 85%;
+  margin: auto;
+  margin-top: 200px;
+  padding: 60px;
+  border-radius: 20px;
+  background: var(--primary-50);
+  display: flex;
+  gap: 190px;
+  align-items: center;
+  margin-bottom: 163px;
+}
+.signInfo div {
+  width: 50%;
+}
+.signInfo div h3 {
+  color: var(--title);
+  font-family: "Poppins";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.signInfo div p {
+  color: var(--title);
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.signInfo div button {
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--primary-500, #f84757);
+  box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .signInfo {
+    width: 90%;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+  .signInfo div {
+    width: 100%;
+    text-align: center;
+  }
+  .signInfo div button {
+    margin: auto !important;
+  }
+}
